@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="" id="form">
+        <label for="task">Enter Task</label>
+        <input type="text" id="task" class="task-input" required />
+        <button type="submit" class="btn">Add Task</button>
+      </form>
+      <div class="task-wrapper">
+        <table class="task-list" id="task-list">
+          <thead>
+            <tr>
+              <th>Task id</th>
+              <th>Task name</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="app/index.js"></script>
+  </body>
+</html>
